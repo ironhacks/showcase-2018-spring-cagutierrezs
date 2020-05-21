@@ -88,7 +88,7 @@ function onStaten(){
 var json;
 var dist = [];
 function updateDistricts(){
-	var URL = "http://services5.arcgis.com/GfwWNkhOj9bNBqoJ/arcgis/rest/services/nycd/FeatureServer/0/query?where=1=1&outFields=*&outSR=4326&f=geojson";
+	var URL = "https://services5.arcgis.com/GfwWNkhOj9bNBqoJ/ArcGIS/rest/services/NYC_Community_Districts/FeatureServer/0/query?where=1=1&outFields=*&outSR=4326&f=geojson";
   	var data = $.get(URL, function(){
   	})
   		.done( function(){
